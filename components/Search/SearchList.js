@@ -26,7 +26,7 @@ class FlatListDemo extends Component {
   }
 
   makeRemoteRequest = () => {
-    const url = `https://malamalexpress.com/wc-api/v3/products?&consumer_key=ck_dd172b0edbf112bd76904a6112291370a4403aaf&consumer_secret=cs_b989504ffc25f1e7e538e107001c1091871557dc`;
+    const url = `https://malamalexpress.com/wc-api/v3/products?filter[limit]=-1&consumer_key=ck_dd172b0edbf112bd76904a6112291370a4403aaf&consumer_secret=cs_b989504ffc25f1e7e538e107001c1091871557dc`;
     this.setState({loading: true});
 
     fetch(url)

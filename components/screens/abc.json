@@ -1,0 +1,302 @@
+[
+  {
+    "id": 125,
+    "name": "Bakery Snacks",
+    "slug": "bakery-snacks",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1416,
+      "date_created": "2020-07-08T06:50:57",
+      "date_created_gmt": "2020-07-08T06:50:57",
+      "date_modified": "2020-07-08T06:50:57",
+      "date_modified_gmt": "2020-07-08T06:50:57",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/download-5.jpg",
+      "name": "download (5)",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/125"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "name": "Beverage",
+    "slug": "beverage",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 840,
+      "date_created": "2020-07-06T06:41:56",
+      "date_created_gmt": "2020-07-06T06:41:56",
+      "date_modified": "2020-07-06T06:41:56",
+      "date_modified_gmt": "2020-07-06T06:41:56",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/media-handler.png",
+      "name": "media-handler",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 8,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/87"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Bread &amp; Bakery",
+    "slug": "bread-bakery",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1413,
+      "date_created": "2020-07-08T06:48:16",
+      "date_created_gmt": "2020-07-08T06:48:16",
+      "date_modified": "2020-07-08T06:48:16",
+      "date_modified_gmt": "2020-07-08T06:48:16",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/images-1.jpg",
+      "name": "images (1)",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/123"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "name": "Breads",
+    "slug": "breads",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1417,
+      "date_created": "2020-07-08T06:52:01",
+      "date_created_gmt": "2020-07-08T06:52:01",
+      "date_modified": "2020-07-08T06:52:01",
+      "date_modified_gmt": "2020-07-08T06:52:01",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/download-6.jpg",
+      "name": "download (6)",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/126"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "name": "Breakfast",
+    "slug": "breakfast",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1026,
+      "date_created": "2020-07-06T11:48:15",
+      "date_created_gmt": "2020-07-06T11:48:15",
+      "date_modified": "2020-07-06T11:48:15",
+      "date_modified_gmt": "2020-07-06T11:48:15",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/0-Utah-MAIN2.jpg",
+      "name": "0-Utah-MAIN2",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 102,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/91"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "name": "Butter &amp; Sour Cream",
+    "slug": "butter-sour-cream",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1371,
+      "date_created": "2020-07-08T06:18:45",
+      "date_created_gmt": "2020-07-08T06:18:45",
+      "date_modified": "2020-07-08T06:18:45",
+      "date_modified_gmt": "2020-07-08T06:18:45",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/download-1.jpg",
+      "name": "download (1)",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/115"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Cakes",
+    "slug": "cakes",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1426,
+      "date_created": "2020-07-08T06:55:42",
+      "date_created_gmt": "2020-07-08T06:55:42",
+      "date_modified": "2020-07-08T06:55:42",
+      "date_modified_gmt": "2020-07-08T06:55:42",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/carrot-cake.jpg",
+      "name": "carrot-cake",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/129"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "name": "Candy &amp; Chocolate",
+    "slug": "candy-chocolate",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1331,
+      "date_created": "2020-07-08T05:10:54",
+      "date_created_gmt": "2020-07-08T05:10:54",
+      "date_modified": "2020-07-08T05:10:54",
+      "date_modified_gmt": "2020-07-08T05:10:54",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/636441039149102386-candy.jpg",
+      "name": "636441039149102386-candy",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/106"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "name": "Canned Food",
+    "slug": "canned-food",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1399,
+      "date_created": "2020-07-08T06:38:37",
+      "date_created_gmt": "2020-07-08T06:38:37",
+      "date_modified": "2020-07-08T06:38:37",
+      "date_modified_gmt": "2020-07-08T06:38:37",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/download-4.jpg",
+      "name": "download (4)",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/122"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "name": "Cereals",
+    "slug": "cereals",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": {
+      "id": 1031,
+      "date_created": "2020-07-06T11:55:07",
+      "date_created_gmt": "2020-07-06T11:55:07",
+      "date_modified": "2020-07-06T11:55:07",
+      "date_modified_gmt": "2020-07-06T11:55:07",
+      "src": "https://malamalexpress.com/wp-content/uploads/2020/07/GatCereal_Lead.jpg",
+      "name": "GatCereal_Lead",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://malamalexpress.com/wp-json/wc/v3/products/categories/94"
+        }
+      ],
+      "collection": [
+        {"href": "https://malamalexpress.com/wp-json/wc/v3/products/categories"}
+      ]
+    }
+  }
+]

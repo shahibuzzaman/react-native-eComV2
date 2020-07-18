@@ -30,6 +30,7 @@ import SearchBar from './components/SearchBar';
 import SearchBarProducts from './components/SearchBarProducts';
 import SearchList from './components/Search/SearchList';
 import SearchListHeader from './components/SearchListHeader';
+import SubCategories from './components/screens/SubCategories';
 
 const HomeStack = createStackNavigator();
 
@@ -42,6 +43,14 @@ const HomeStackScreen = () => {
         options={({navigation}) => ({
           title: '',
           headerRight: () => <SearchBar navigation={navigation} />,
+        })}
+      />
+      <HomeStack.Screen
+        name="SubCategories"
+        component={SubCategories}
+        options={({navigation}) => ({
+          title: '',
+          headerShown: false,
         })}
       />
       <HomeStack.Screen

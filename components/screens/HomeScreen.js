@@ -21,7 +21,7 @@ const HomeScreen = ({navigation}) => {
   const [categories, setCategories] = useState([]);
 
   const api =
-    'https://malamalexpress.com/wp-json/wc/v3/products/categories?consumer_key=ck_dd172b0edbf112bd76904a6112291370a4403aaf&consumer_secret=cs_b989504ffc25f1e7e538e107001c1091871557dc&fbclid=IwAR0JNrFqrfP5tvhAvrMONJ6i44fEKqNAqiVlC1WKhPtdVDOmQn5DQht481c';
+    'https://malamalexpress.com/wp-json/wc/v3/products/categories?per_page=50&consumer_key=ck_af6dae0d921e12528b92964fb526317370642ec1&consumer_secret=cs_d172a15e6fa946ccc01890ca6adec67e3724e667';
 
   useEffect(() => {
     fetch(api)
@@ -32,32 +32,35 @@ const HomeScreen = ({navigation}) => {
   }, []);
 
   const renderItem = ({item}) => {
-    return (
-      <TouchableOpacity
-        onPress={() => {
-          navigation.navigate('Products', {
-            categorySlug: item.slug,
-          });
-        }}>
-        <View
-          style={{
-            height: 120,
-            width: 123,
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: 'white',
-            margin: 4,
-            borderRadius: 10,
-            shadowColor: '#222',
-            shadowOffset: {width: 0.5, height: 0.5},
-            shadowOpacity: 0.5,
-            shadowRadius: 10,
-            elevation: 2,
+    if (item.parent == 0) {
+      return (
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('SubCategories', {
+              categorySlug: item.slug,
+              id: item.id,
+            });
           }}>
-          <Text style={{fontSize: 16}}>{item.name}</Text>
-        </View>
-      </TouchableOpacity>
-    );
+          <View
+            style={{
+              height: 120,
+              width: 185,
+              alignItems: 'center',
+              justifyContent: 'center',
+              backgroundColor: 'white',
+              margin: 4,
+              borderRadius: 10,
+              shadowColor: '#222',
+              shadowOffset: {width: 0.5, height: 0.5},
+              shadowOpacity: 0.5,
+              shadowRadius: 10,
+              elevation: 2,
+            }}>
+            <Text style={{fontSize: 16}}>{item.name}</Text>
+          </View>
+        </TouchableOpacity>
+      );
+    }
   };
 
   const keyExtractor = (item) => String(item.id);
